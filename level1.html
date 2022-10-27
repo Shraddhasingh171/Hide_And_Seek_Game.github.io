@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>level-1</title> <link rel="icon" href="icon.png">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+    
+   
+    <div id="name">
+        <h1>LEVEL-1</h1>
+        
+    </div>    
+    <div>
+        <h2>Gifts: <span id="gifts-count">0</span></h2>
+    </div>
+    
+   
+        <div class="game-board">
+            <div class="block1" id="boxes1" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"></div>
+            <div class="block1" id="boxes2"data-aos="flip-right"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" ></div>
+            <div class="block1" id="boxes3"data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"></div>
+            <div class="block1" id="boxes4"data-aos="flip-right"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"></div>
+            <div class="block1" id="boxes5"data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"></div>
+            <div class="block1" id="boxes6"data-aos="flip-right"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"></div>
+            <div class="block1" id="boxes7"data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"></div>
+            <div class="block1" id="boxes8"data-aos="flip-right"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"></div>
+            <div class="block1" id="boxes9"data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"></div>
+            </div>
+        </div>
+     </div>
+     </div>
+
+
+
+    
+    </div>
+    <div id="gameOver">
+        <p>Game Over</p>
+        <button onclick="pageReload()">
+            Play again
+        </button>
+    </div>
+    <div id="gameWon" >
+       <p>Game Won</p>
+        <button ><a href="nextlevel.html">
+            Next Level
+        </a></button>
+        <button onclick="pageReload()">
+            Play again
+        </button>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    
+</body>
+</html>
